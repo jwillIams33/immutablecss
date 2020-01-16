@@ -1,0 +1,34 @@
+{
+  "name": "immutable-ui",
+  "version": "1.5.2",
+  "author": "Jamal Williams <jamalwilliamsux@gmail.com>",
+  "description": "A minimalist front-end design toolkit built with Sass for developing responsive, browser-consistent web apps.",
+  "homepage": " ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+  },
+  "keywords": [
+    "sass",
+    "setup",
+    "boilerplate",
+    "framework",
+    "ui",
+    "css framework",
+    "front end",
+    "design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": " "
+  },
+  "private": false
+}
